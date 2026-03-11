@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx next:*)",
+      "Bash(node -e \"console.log\\(require\\(''./node_modules/next/package.json''\\).version\\)\")",
+      "Bash(node -e \"const p = require\\(''./node_modules/next/package.json''\\); console.log\\(''Next.js'', p.version\\)\")",
+      "Bash(npm run:*)"
+    ]
+  }
+}
